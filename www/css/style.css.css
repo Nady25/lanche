@@ -1,0 +1,224 @@
+h1, 
+h2, 
+h3 {
+    font-family: 'times', cursive;
+}
+body {
+    color: #ef3800;
+    background-color: #f3f3ec;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body h1, 
+h2, 
+h3 {
+    color: rgb(14, 12, 12);
+}
+
+nav a:hover {
+	color: #4b1717;
+    font-weight: bold;
+}
+
+
+.side-nav a {
+	color: white;
+	text-align: center;
+}
+
+.side-nav-open {
+	transform: translateX(0px);
+	
+}
+
+.side-nav-close {
+	transform: translateX(100%);
+}
+
+
+#welcome {
+    background-image: url(../images/burger.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-black {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.img-description {
+	background-image: url(../images/description.jpg);
+	height: 412px;
+	background-size: cover;
+	min-width: auto;
+	background-repeat: no-repeat;
+}
+.text-description {
+	text-align: justify;
+	padding: 20px;
+    background-color: rgba(0, 0, 0, 0.90);
+    border-radius: 12px;
+}
+
+.border-redon {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+#menu-products {
+	min-height: 100vh;
+}
+
+#menu-products .menu-item{
+	margin-top: 0px;
+	float: left;
+}
+
+#menu-products ul {
+	background-color: transparent;
+}
+
+.menu-opcoes a {
+    color: #ef00bb !important;
+}
+
+#menu-products .tabs .indicator {
+	background-color: rgb(22, 19, 19);
+}
+
+.menu-item {
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: contain; 
+	background-position: center;
+	margin: 10px;
+	margin-left: 0;
+}
+
+.item1 {
+	background-image: url(../images/pizza_1.jpg);
+}
+
+.item2 {
+	background-image: url(../images/pizza_2.jpg);
+
+}
+
+.item3 {
+	background-image: url(../images/pizza_3.jpg);
+	
+}
+
+.item4 {
+	background-image: url(../images/pizza_4.jpg);
+	
+}
+
+.item5 {
+	background-image: url(../images/burger_1.png);
+}
+
+.item6 {
+	background-image: url(../images/burger_2.png);	
+}
+
+.item7 {
+	background-image: url(../images/burger_3.png);
+}
+
+.item8 {	
+	background-image: url(../images/burger_4.png);
+}
+
+.item9 {
+	background-image: url(../images/burger_5.png);
+}
+
+.item10 {
+	background-image: url(../images/burger_6.png);
+}
+
+#about {
+	min-height: 100vh;
+}
+footer .material-icons {
+	color: rgba(255, 255, 255, 1); 	
+	margin-right: 5px;
+}
+
+footer p {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+#products .col {
+	padding: 0px;
+}
+
+.text-fotos {
+	width: 100%;
+	height: 50vh;
+	text-align: justify-all;
+}
+.text-fotos h2{
+	width: 100%;
+}
+
+.imagens {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    padding: 0px;
+}
+
+.box-preco {
+	width: 100%;
+	height: 100%;
+	color: black;
+	background-color: rgba(0, 0, 0, 0.87);
+	z-index: 5;
+	visibility: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.preco {
+	align-self: center;
+	z-index: 6;
+	text-align: center;
+	color: white;
+}
+
+.preco h4 {
+	color: #cc3c03 !important;
+	font-family: 'Bungee', cursive;
+}
+
+.imagens:hover .box-preco {
+	visibility: visible;
+}
+
+.cardapio-img {
+    background-image: url(../images/burger_menu.jpg);
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
